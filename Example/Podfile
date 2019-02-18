@@ -1,5 +1,6 @@
 use_frameworks!
-target 'YetLayout_Tests' do
+target 'HelloLayout' do
+  platform :ios, '9.0'
   pod 'YetLayout', :path => '../'
   
   

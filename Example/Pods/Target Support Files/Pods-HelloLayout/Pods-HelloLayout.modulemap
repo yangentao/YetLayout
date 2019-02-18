@@ -1,0 +1,6 @@
+framework module Pods_HelloLayout {
+  umbrella header "Pods-HelloLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

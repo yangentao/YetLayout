@@ -1,5 +1,5 @@
 PODS:
-  - YetLayout (0.1.0)
+  - YetLayout (0.1.1)
 
 DEPENDENCIES:
   - YetLayout (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YetLayout: 70a131a70fa1008c3186032faa73df39bd61457b
+  YetLayout: 1164d600dd40f037032acae43e5a94d28fdb3f1d
 
-PODFILE CHECKSUM: 95b291095dcd7451364e753130d05a796114a06d
+PODFILE CHECKSUM: 9b3907eef98654d8bd60abf55616c56caa710629
 
 COCOAPODS: 1.6.0

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_YetLayout_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_YetLayout_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_HelloLayoutVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_HelloLayoutVersionString[];
 

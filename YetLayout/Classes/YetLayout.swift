@@ -42,7 +42,7 @@ fileprivate class YetConList {
 	var list = [NSLayoutConstraint]()
 }
 fileprivate extension Array {
-    
+
     mutating func removeFirstIf(block: (Element) -> Bool) -> Element? {
         for i in self.indices {
             let item = self[i]
@@ -607,23 +607,23 @@ public extension YetLayout {
 		return self
 	}
 
-//    @discardableResult
-//    public func heightEdit() -> YetLayout {
-//        self.height(Theme.Edit.heightLarge)
-//        return self
-//    }
-//
-//    @discardableResult
-//    public func heightText() -> YetLayout {
-//        self.height(Theme.Text.height2)
-//        return self
-//    }
-//
-//    @discardableResult
-//    public func heightButton() -> YetLayout {
-//        self.height(Theme.Button.heightLarge)
-//        return self
-//    }
+	@discardableResult
+	public func heightEdit() -> YetLayout {
+		self.height(YetLayoutConst.editHeight)
+		return self
+	}
+
+	@discardableResult
+	public func heightText() -> YetLayout {
+		self.height(YetLayoutConst.textHeight)
+		return self
+	}
+
+	@discardableResult
+	public func heightButton() -> YetLayout {
+		self.height(YetLayoutConst.buttonHeight)
+		return self
+	}
 
 	@discardableResult
 	public func widthLe(_ w: CGFloat) -> YetLayout {
@@ -676,4 +676,10 @@ public extension YetLayout {
 		return self
 	}
 
+}
+
+public class YetLayoutConst {
+	public static var buttonHeight: CGFloat = 42
+	public static var editHeight: CGFloat = 42
+	public static var textHeight: CGFloat = 30
 }
