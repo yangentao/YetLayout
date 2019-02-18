@@ -53,7 +53,7 @@ pod 'YetLayout'
 
 ## Author
 
-yangentao, yangentao@gmail.com
+yangentao, entaoyang@163.com
 
 ## License
 
