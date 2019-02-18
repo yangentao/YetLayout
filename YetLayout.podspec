@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YetLayout'
-  s.version          = '0.1.1'
+  s.version          = '1.0.0'
   s.summary          = 'iOS Auto Layout by Swift'
   s.description      = <<-DESC
         iOS Auto Layout by Swift, Easy to Use.
