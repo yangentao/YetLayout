@@ -1,0 +1,16 @@
+PODS:
+  - YetLayout (0.1.0)
+
+DEPENDENCIES:
+  - YetLayout (from `../`)
+
+EXTERNAL SOURCES:
+  YetLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YetLayout: 70a131a70fa1008c3186032faa73df39bd61457b
+
+PODFILE CHECKSUM: 95b291095dcd7451364e753130d05a796114a06d
+
+COCOAPODS: 1.6.0

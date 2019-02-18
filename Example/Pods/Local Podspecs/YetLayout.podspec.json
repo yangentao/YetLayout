@@ -1,0 +1,23 @@
+{
+  "name": "YetLayout",
+  "version": "0.1.0",
+  "summary": "iOS Auto Layout by Swift",
+  "description": "iOS Auto Layout by Swift",
+  "homepage": "https://github.com/yangentao/YetLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yangentao": "yangentao@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/yangentao/YetLayout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YetLayout/Classes/**/*",
+  "frameworks": "UIKit"
+}

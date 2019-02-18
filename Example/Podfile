@@ -1,0 +1,6 @@
+use_frameworks!
+target 'YetLayout_Tests' do
+  pod 'YetLayout', :path => '../'
+  
+  
+end

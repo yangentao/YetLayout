@@ -1,0 +1,6 @@
+framework module Pods_YetLayout_Tests {
+  umbrella header "Pods-YetLayout_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
